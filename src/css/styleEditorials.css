@@ -1,9 +1,12 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 * {
   height: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+
 }
 
 body {
@@ -103,10 +106,13 @@ button {
   color: #000000;
 }
 /*Estilização Titulo */
-.container-home h1 {
+ h3 {
   color: #ffffff;
-  font-family: cursive;
+  font-size: 50px;
+  letter-spacing: 2px;
   font-size: 40px;
+  font-family: "Protest Guerrilla", sans-serif!important;
+
 }
 
 /*Estilização SubTitulo */

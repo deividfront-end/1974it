@@ -1,15 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
 * {
   height: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  
   background-image: url(../img/fundo\ RED-min.jpg);
   background-size: cover;
   background-color: #ff0000;
@@ -101,12 +108,19 @@ button {
   justify-items: center;
   align-items: center;
   color: #000000;
+  
 }
 /*Estilização Titulo */
 .container-home h1 {
   color: #ffffff;
-  font-family: cursive;
-  font-size: 40px;
+  margin-left: 50px;
+ 
+  font-size: 50px;
+  letter-spacing: 10px;
+
+
+
+
 }
 
 /*Estilização SubTitulo */
@@ -118,6 +132,7 @@ button {
   margin-bottom: 50px;
   font-size: 15px;
   color: #fafafa;
+  margin-left: 50px;
 }
 
 /*Estilização Container Sobre/About*/
@@ -165,6 +180,20 @@ button {
 
 /*Responsive  */
 @media (max-width: 415px) {
+  
+  .container-home h1 {
+    color: #ffffff!important;
+    font-size: 50px;
+   letter-spacing: 10px;
+      font-family: "Protest Guerrilla", sans-serif;
+      font-weight: 100;
+      font-style:normal;
+    }
+  }
+  
+  
+  
+  
   .container-menu {
     display: flex;
     align-items: center;
@@ -271,4 +300,4 @@ button {
   }
 
   
-}
+
