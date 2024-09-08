@@ -16,7 +16,6 @@ body {
   font-family: "Protest Guerrilla", sans-serif;
   font-weight: 200;
   font-style: normal;
-  
   background-image: url(../img/fundo\ RED-min.jpg);
   background-size: cover;
   background-color: #ff0000;
@@ -66,7 +65,6 @@ nav span {
   width: 523px;
   height: 100%;
   background: #ee0707e7;
-
   border-radius: 10px;
   transition: 0.5s;
 }
@@ -114,13 +112,8 @@ button {
 .container-home h1 {
   color: #ffffff;
   margin-left: 50px;
- 
   font-size: 50px;
   letter-spacing: 10px;
-
-
-
-
 }
 
 /*Estilização SubTitulo */
@@ -182,25 +175,21 @@ button {
 @media (max-width: 415px) {
   
   .container-home h1 {
-    color: #ffffff!important;
-    font-size: 50px;
-   letter-spacing: 10px;
-      font-family: "Protest Guerrilla", sans-serif;
-      font-weight: 100;
-      font-style:normal;
-    }
-  }
-  
-  
-  
+  color: #ffffff!important;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 100;
+  font-style:normal;
+}
   
   .container-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    gap: 2px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 2px;
+}
 
   nav {
     width: 415px !important;
@@ -298,6 +287,7 @@ button {
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
+}
 
   
 
