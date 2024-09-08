@@ -288,10 +288,36 @@ h3:hover {
   background-color: #fd080877;
 }
 
+.container-redes {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: #edf0f1;
+  background-color: #590c0cc0;
+  gap: 15px;
+  padding-top: 10px;
+}
+/*Estilização Container Rodapé*/
+.container-rodape {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: #edf0f1;
+  background-color: #590c0cc0;
+  margin-bottom: 0px !important;
+  font-size: 12px;
+  padding-bottom: -0px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /*Responsive  */
 @media (max-width: 415px) {
   .container-menu {
-    display: flex;
+    display: flex!important;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -370,24 +396,22 @@ h3:hover {
     color: #fff9f9;
   }
 
-  /*Carousel resp */
+ 
 
-  .container-sobre {
-    padding: 20px;
-    margin-top: 0px;
-    color: white;
-    display: flex;
+
+  /*Sobre*/
+  .container-rodape {
+    height: 80px;
+    display: flex!important;
     justify-content: center;
     justify-items: center;
-    align-items: center;
     text-align: center;
+    color: #edf0f1;
+    background-color: #000000c0;
+    margin-bottom: 0px !important;
     font-size: 12px;
-  }
-
-  .container-rodape {
-    margin-top: 0px;
-    height: 100px !important;
-    background-color: #000000;
-    padding: 20px;
+    padding-bottom: -0px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
